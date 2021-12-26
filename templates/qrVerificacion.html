@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTP</title>
+</head>
+
+<body>
+    <h1>Si desea configurar Google Authenticator:</h1>
+    <h2>Puede hacerlo manualmente con las siguientes credenciales: </h2>
+    <h3>Nombre de usuario: {{ userId }}</h3>
+    <h3>Secreto: {{ secret }}</h3>
+    <h2>O puede hacerlo escaneando el siguiente código QR</h2>
+    <img src="{{ image }}" alt="qr" />
+
+
+</body>
+
+</html>
